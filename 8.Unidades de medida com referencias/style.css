@@ -1,0 +1,72 @@
+/*A primeira coisa que precisamos entender são as referências.
+Primeiro, eu forço um a fonte do meu container (o pai) a ter um tamanho x usando o atributo font-size. Logo em seguida, inicia-se as referências. A unidade que usaremos é o 'em' e ele está sempre tomando como referência o tamanho da fonte (do pai). Portanto, no exemplo abaixo foi dado o atributo:
+
+#container{
+    font-size:40px;
+}
+
+Ou seja, dessa forma, se eu criar qualquer seletor que seja e utilizar a medida 'em', vai ser equivalente a 40px. Portanto, neste caso, 1em = 40px.
+
+#inside{
+    font-size:1em;
+}
+
+Também existe a medida 'rem', essa medida faz referência ao elemento root, o elemento padrão do seu documento. Portanto, 1rem = medida padrão do seu documento. Lembrando que esse elemento root pode ser alterado dentro do CSS
+
+*/
+
+/*Existe as unidades que fazem referência ao tamanho da nossa tela.
+Por exemplo o vw, 1vw (view width) equivale a 1% da largura da nossa tela, independe to tamanho que seja (responsividade).O mesmo equivale para a medida vh (view height), mas essa diz respeito a altura
+
+#container{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;  
+}
+
+
+#inside{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}*/
+
+/*Temos também a medida vmin e vmax. Ambas se parecem muito ao vw e vh, porém, ela muda sua referência baseada no viewport. Por exemplo, em uma proporção 10cm de altura e 20cm de largura, 10x20, o vmin irá trabalhar com o menor valor, no caso, a altura. Agora, se tivermos a proporção 20cm de altura e 10 de larguram, 20x10, o vmin irá trabalhar com a largura. O vmax é ao contrario, ele irá trabalhar sempre com o maior entre as duas.
+
+
+#container{
+    background-color: red;
+    width: 50vmin; 
+}
+
+
+#container{
+    background-color: red;
+    width: 50vmax; 
+}*/
+
+/*Agora falando da medida %, ele sempre irá fazer referência ao elemento pai, podendo ser esse elemento até mesmo o próprio body. Mas lembrar que a width em % será sempre em referência ao width do % pai. Eu jamais poderei usar height: 300px e achar que no elemento filho width: 80% será referente aos 300px. Width com width e height com height.
+
+#container{
+    background-color: red;
+    width: 800px; 
+}
+
+
+#inside{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}*/
+
+#container{
+    background-color: red;
+    width: 800px; 
+}
+
+
+#inside{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+}

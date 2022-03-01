@@ -1,0 +1,47 @@
+/*A primeira medida que veremos é a cm, ou centimetro. É basicamente o tamanho de um 1 centimetro.*/
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+/*Agora, veremos a medida em mm, ou milimetro.*/
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+
+/*A próxima medida é o inche, a polegada, uma polegada equivale a 2,54cm*/
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+/*Já a unidade px diz respeito ao pixel*/
+
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+/*A unidade pt é o ponto. Dependendo do seu monitor, um ponto pode ter mais de um pixel ou somente 1 pixel*/
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+/*A última medida fixa é o picas (pc), ela é equivalente a 12pt*/
+
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
