@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS interno</title>
+    <!--Já o CSS interno, é uma maneira de utilizar o CSS fora de cada tag usando seletores. Desta maneira, o código ficará melhor organizado em relação a maneira anterior. Portanto, criaremos a tag style dentro da área de head ainda-->
+
+    <style>
+        p{
+            /*Aqui, estamos dentro do seletor*/
+            color: red;
+        }
+        h1{
+            background-color: pink;
+        }
+        /*O grande problema desses seletores não tao especificos é que se eu tiver um documento com vários 'p', ele mudará todos, portanto, mais na frente aprenderamos a usar seletores de forma mais especifica*/
+    </style>
+</head>
+<body>
+   
+
+    <h1>Titulo</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio veniam nisi reprehenderit eaque esse possimus labore quasi corporis error expedita maxime, cum at? Iste ratione sunt id cupiditate? Quia!</p>
+</body>
+</html>

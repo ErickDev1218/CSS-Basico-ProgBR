@@ -1,0 +1,27 @@
+#titulo {
+    background-color: red;
+}
+
+p {
+    
+    /*Esse atributo me deixa usar uma imagem de background, lembrando que ela deve ser do tipo URL*/
+
+
+    /*background-repeat: no-repeat; esse atribudo na forma 'no-repeat' diz para a minha imagem não se repetir, mas existe como fazer ela se repetir somente em X ou somente em Y*/
+
+
+    /*background-size: cover; esse atributo 'força' a imagem a cobrir o elemento por inteiro, mesmo que ela perca sua resolução padrão*/
+
+    /*background-attachment:fixed; neste atributo, está o tão famoso efeito parallax. Por padrão, ele é do tipo 'scroll', que rolará junto a página.*/
+
+    /*background-position: center; este atributo permite posicionar melhor a imagem, neste exemplo, no centro.*/
+
+    /*Para não termos que escrever várias linhas de código, surgiu as 'fast-hand', que é básicamente você escrever todos esses atributos em uma única linha. Importante sempre obdecer a ordem correta, caso esta ordem, pelo motivo que seja, não for correta, não funcionará.
+    
+    Ordem fast-hand para background -> bg-color bg-image postion/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+    Vale lembrar também que o atributo que eu não quiser colocar, basta pula-lo.
+    */
+
+    background: url(fundos/bg-blue-red.jpg) repeat-y fixed;
+
+}

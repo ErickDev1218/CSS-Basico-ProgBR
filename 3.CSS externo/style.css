@@ -1,0 +1,9 @@
+/*Aqui dentro, usaremos dos seletores da mesma forma que usamos no CSS interno*/
+
+p{
+    color: red;
+}
+
+h1{
+    background-color: pink;
+}

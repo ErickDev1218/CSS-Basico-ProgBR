@@ -1,0 +1,15 @@
+/*Caso eu crie um seletor generico, já vimos que todos os elementos que tenham a mesma tag irão sofrer as alterações do CSS*/
+
+/*p{
+    color: red;
+}*/
+
+/*Com o id ou class já criado no seu arquivo HTML, vamos criar o seletor. A diferença nos seletores aqui dentro do CSS esta no inicio. Se você tiver criado um id, deve iniciar com #'NomeDoId', e caso tenha criado uma class, deve iniciar com .'NomeDaClass'*/
+
+#principal{
+    background-color: pink;
+}
+
+.red_text{
+    color: red;
+}
