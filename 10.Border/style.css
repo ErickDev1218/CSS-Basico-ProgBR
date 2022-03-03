@@ -1,0 +1,18 @@
+/*As bordas sempre existem mas quase nunca a vemos. Para podermos ver uma borda, é necessario da-la um 'border-style' e um 'border-width'.
+Em 'border-width' da pra usar a fast-hand de 'width' já estudada. 
+
+Essa borda também pode ter cores variadas com o 'border-colors'.Por padrão, essa cor é preta. Caso eu queira que algum lugar especifico da minha borda fique em uma determinada cor, eu devo usar, por exemplo 'border-top-color:red;', neste caso, a parte de cima ficaria vermelho. Uma forma de criar isso usando uma fast-hand é usar 'border-color: red green blue yellow;', neste caso, as cores seriam, respectivamente, do top right bottom e left
+
+Para arredondar as bordas, devo usar o 'border-radius'. Nota que esse atributo usa de medidas, ou seja, posso usar px, em, pc, rem, % ...
+Este atributo pode ser utilizado mesmo sem uma borda definida.
+
+Os border-style mais usados são: dotted, dashed, solid, none e hidden. A diferença entre none e hidden é que o hidden entra na tela mas não aparece e o none nunca entrou na tela.
+
+A maneira mais simples de criar uma borda usando uma outra fast-hand é usar 'border:' e definir largura, style e cor. Por exemplo : 'border:10px red solid;'
+*/
+
+
+
+.bord{
+    border:10px red solid;
+}

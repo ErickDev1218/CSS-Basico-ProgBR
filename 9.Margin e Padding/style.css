@@ -1,0 +1,37 @@
+/*As medidas de margin e padding dizem respeito ao espaçamento entre os elementos.
+
+Primeiro, é importante sempre entender como estão os elementos a serem alterados. Sugiro uma boa análise no documento HTML para que possa ter essa exatidão.
+
+A medida margin, como o nome já sugere, é uma margem entre em elemento e outro e/ou as laterais, para que voce possa manipular o elemento 'livremente' pela tela.
+
+Para isso, usamos o atributo 'margin mesmo este que pode ser 'margin-top',right, left e bottom para onde você quiser manipula-lo. Mas existem as fast-hand para essas situaçoes.
+
+A sequência é top > right > bottom > left, então, em uma fast-hand 'completa' ficaria 'margin: 10px 12px 13px 14px' respectivamente.
+
+Caso você queira 10px em cima e em baixo e 20px em ambos os lados, basta usar 'margin: 10px 20px;', dessa forma, o CSS interpretará que o primeiro valor diz respeito a cima e baixo e o segundo esquerda e direita. Mas caso você precise de 10px para todos os sentidos (top, bottom, left e right), basta usar 'margin: 10px;', desta forma, o CSS irá entender que são 10px para todos os lados.
+
+
+Já a medida 'padding' é também um espaçamento mas diferente do margin, ele é um espaçamento interno, uma 'engordada' no elemento. A maneira de se aplicar um padding funcionam exatamente da mesma maneira do margin.
+*/
+
+
+
+#container{
+    background-color: red;
+    padding: 10px;
+
+}
+
+
+
+#inside{
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+#segcont{
+    background-color: purple;
+    margin: 10px;
+}
