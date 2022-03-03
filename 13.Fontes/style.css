@@ -1,0 +1,20 @@
+/*Nesta aula vamos aprender a manipular as fontes de uma maneira geral.*/
+
+/*Primeiro e mais importante é entender a familia da fonte, de outra forma, a 'font-family'. O atributo 'font-family' normalmente irá necessitar de 3 valores, o primeiro deles sendo principal, caso a maquina do usuario nao consiga roda-lo, o segundo valor entrará como um backup e, caso o segundo também nao consiga ser rodado, entrará o 3 valor que com certeza irá rodar pois trata-se de um valor mais 'generico'. Por exemplo 'font-family: Arial, Helvetica, sans-serif;'.
+
+Para darmos estilo a uma fonte, usamos o 'font-style', que serve para, por exemplo, colocar uma fonte em italic. Já vimos como colocar em italico usando tags HTML, mas aqui, o foco é CSS. Por padrão, esse style será normal.
+
+Para modificarmos o tamanho da fonte usamos o atributo 'font-size', este atributo utiliza unidades de medidas.
+
+
+Para colocarmos uma fonte em negrito utilizando CSS, utilizamos o atributo 'font-weight'. Os valores para esse atributo variam entre normal, bold ou bolder. Podendo também ser colocada em valores númericos, onde 100 seria o inicio e 900 o fim, variando de 100 em 100. 400 seria normal, 700 seria bold e 900 bolder. Lembrando que em forma númerica vai depender muito da fonte que voce está utilizando.
+
+O atributo 'font-variant' é parecido com o 'text-transformation: uppercase', a diferença é que ele nao colocará todas as letras em maiusculo, ele irá deixar as letras sim maiores, mas ainda ficará nitido quais são as letras maiusculas e minusculas.*/
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+
+}

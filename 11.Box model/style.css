@@ -1,0 +1,23 @@
+/*O box model ou modelo de caixas é como um elemento se comporta com suas bordas e tamanhos. Já vimos várias vezes que é possivel agrupar elemento usando uma div ou até mesmo, colocar uma div dentro de outra div, imagino sempre que uma div é uma caixa, onde eu coloco os elementos que eu queira para poder melhor organiza-los nesse agrupamento.
+
+Os atributos que trabalham com o box model são o Margin, Padding e Border que já estudamos anteriormente.
+
+Padding é da borda pra dentro e margin da borda pra fora.
+
+É importante entender com cuidado esse conceito principalmente na hora de desenhar um site, pois se eu tiver uma div com width de 100px e height de 100px, caso eu adicione um padding de 10px, agora esse width e height passam a ter 110px. O mesmo serve na introdução de bordas.
+
+Uma tecnica utilizada para forçar a borda a respeitar esses 100px, é o atributo 'box-sizing: border-box'. Com esse atributo, a borda nao irá ultrapassar os valores passados em width e height.*/
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: yellow;
+    height: 60px;
+    margin: 5px;
+}

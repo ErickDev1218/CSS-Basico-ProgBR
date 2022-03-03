@@ -1,0 +1,28 @@
+/*Primeiro cabe entendimento que, quanto mais estilizada, com detalhes e outras coisas mais for a fonte, mais pesada ela será para o carregamento na WEB, então, CUIDADO!!!
+
+Para utilizarmos fontes customizadas, existe duas formas.
+
+A primeira são links de algum diretório (aqui usaremos o google fonts) que são colocados na área de 'head' do seu HTML. Esse link pode compor mais de uma fonte.
+
+Neste local onde é liberado esse link terá como eu posso chamar essa fonte.
+
+
+A segunda maneira são por arquivos de fontes, o ideal é usarmos arquivos .otf ou .ttf, que são as maneiras mais compativeis com os navegadores.
+
+Já com algum arquivo baixado e alocado em alguma pasta, devo criar um '@font-face'. Esse font-face recebe alguns atributos importantes que são a font-family e o src. A font-family vai ser como EU vou chama-la, diferente da forma anterior, eu que escolherei como ela será chamada. E o src será onde o arquivo se encontra
+*/
+
+@font-face {
+    font-family: MinhaFonte;
+    src: url(fontes/PressStart.ttf.ttf);
+}
+
+
+h1{
+    font-family: 'Comforter Brush', cursive; /*'Comforter Brush' foi o nome disponibilizado no próprio google fonts para que eu pudesse chama-la*/
+}
+
+
+p{
+    font-family: MinhaFonte;
+}

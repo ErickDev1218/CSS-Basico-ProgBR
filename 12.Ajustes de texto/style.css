@@ -1,0 +1,23 @@
+/*Nesta aula vimos ajustes de texto dos mais variados tipos*/
+
+/*Para alterarmos a cor de um texto usamos 'color' seguido da cor desejada.
+
+Para alinhar um texto em right, center, left ou justify, usamos o 'text-align'. Por padrão, está em left.
+
+O atributo 'text-transform' transformará nosso texto em appercase, lowercase ou capitalize.
+
+Com o 'text-indent' é possivel criar uma indentação, aquela margem que sempre vemos em livros, um pequeno espaço na primeira linha do texto.
+
+O 'text-decoration' é a forma de decorar o texto, alguma dessas formas já foi aprendido quando estudamos HTML, com a tag strong, por exemplo. Mas aqui, com esse atributo, eu posso utilizar underline, overline, line-through ou none. Vale salientar que nesse atributo eu posso colocar os 3 primeiros de uma única vez.
+
+O 'letter-spacing' é o espaço entre as letras, caso eu precise de um maior espaçamento entre uma letra e outra. Ele pode receber valores negativos, como '-2px'
+
+Com o atributo 'line-height' nós manipulamos a altura de uma linha, dando um espaço maior ou menor entre uma linha e outra. Neste atributo, eu posso colocar um número qualquer que será um multiplicador do tamanho da fonte. Por exemplo 2, será 2 x o tamanho da fonte. O mesmo se aplica ao %. Por exemplo 50%, será 50% do tamanho da fonte.
+
+Para criarmos uma distância entre uma palavra e outra, usamos o 'word-spacing'.
+
+Para adicionarmos sombras ao nosso texto, utilizamos o 'text-shadow'. Neste atributo ele sempre receberá 4 valores SEMPRE nesta ordem: espaçamento lateral, espaçamento pra baixo, espalhamento e cor. Por exemplo 'text-shadow: 1px 2px 3px black'. Cuidado ao trabalhar com sombras, cores fortes tendem a deixar 'feio', recomendo uso da função RGBA e deixar o preto quase transparente.*/
+
+p{
+    color: red;
+}
