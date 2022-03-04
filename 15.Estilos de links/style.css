@@ -1,0 +1,40 @@
+/*Algumas aulas atrás aprendemos a estilizar de forma simples alguns links, removendo o sublinhado, por exemplo. Mas nesta aula, vamos nos aprofundar um pouco mais neste contexto.
+
+'text-decoration: none' nós ja conhecemos, é justamente ela que remove o sublinhado.
+
+Mas agora, vamos realmente estilizar 'completamente' nosso link, transformando o mesmo em um botão.
+
+Para mudarmos como o mouse fica quando passamos ele por cima, usamos o atributo 'cursor: crosshair', por exemplo.
+
+O link tem 2 estados, quando ele ainda não foi visitado e quando ele já foi visitado, percebe-se isso ao olhar e ver que na sua forma padrão, ele saiu de azul para um roxo. Para corrigirmos isso, usamos uma pseudo-classe chamada 'visited', '.link:visited{}'.
+
+Existe o evento hover. O evento 'hover' é quando o mouse está em cima do elemento, dessa forma, eu posso altera-lo enquanto o mouse estiver em cima. Hover também é uma pseudo-classe. 'link:hover{}'.
+
+Existe também a pseudo-classe active. Ela é bem parecida com o hover, mas apenas mudará o elemento enquanto estiver sendo clicada.
+
+Vale lembrar que todos esses pseudo-elementos herdam as caracteriscas já passadas de uma forma geral, como o paddin e border neste caso.
+*/
+
+.link{
+    text-decoration: none;
+    color: #bc2035;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #bc2035;
+    border-radius: 8px;    
+}
+
+.link:hover{
+    color: white;
+    background-color: #bc2035;
+    transition-duration: 0.5s;
+
+}
+
+.link:active{
+    color: white;
+    background-color: #bc20356c;
+    transition-duration: 0.5s;
+
+}
